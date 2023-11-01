@@ -1,0 +1,19 @@
+Fill the missing lines of code to define a MACROS which will triple the value passed to it.
+
+Examples:
+1:  Input: 10
+  Output: 30
+
+2:
+   Input: 15
+   Output: 45
+
+#include<stdio.h>
+#define TRIPLE(val) 3*val
+int main()
+{
+int num;
+scanf("%d",&num);
+printf("%d",TRIPLE(number));
+return 0,
+}
